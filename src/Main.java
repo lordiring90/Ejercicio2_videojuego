@@ -12,7 +12,7 @@ public class Main {
             System.out.println("1. mostrar estado");
             System.out.println("2. ganar experiencia");
             System.out.println("3. subir de nivel");
-            System.out.println("4. recibir daño");
+            System.out.println("4. recibir dano");
             System.out.println("5. curarse");
             System.out.println("6. salir");
             System.out.print("\nSeleccione una opción:\n ");
@@ -29,7 +29,7 @@ public class Main {
                     System.out.println("subida de nivel: " + p1.subirNivel());
                     break;
                 case 4:
-                    int vidaRestante = p1.recibirDaño();
+                    int vidaRestante = p1.recibirDano();
                     System.out.println("vida actual: " + vidaRestante);
                     if (vidaRestante <= 0) System.out.println("se murioo");
                     break;

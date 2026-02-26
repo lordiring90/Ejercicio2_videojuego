@@ -5,9 +5,11 @@ public class PersonajeEXE {
     private int vida;
     private boolean vivo;
 
+//constructor vacioooo
     public PersonajeEXE() {
     }
 
+//constrctor con todoooo
     public PersonajeEXE(String nombre, int nivel, int experiencia, int vida, boolean vivo) {
         this.nombre = nombre;
         this.nivel = nivel;
@@ -15,7 +17,7 @@ public class PersonajeEXE {
         this.vida = vida;
         this.vivo = vivo;
     }
-
+//getter y setterssss
     public String getNombre() {
         return nombre;
     }
@@ -56,6 +58,7 @@ public class PersonajeEXE {
         this.vivo = vivo;
     }
 
+    //tostring:D
     @Override
     public String toString() {
         return "PersonajeEXE{" +
@@ -67,7 +70,7 @@ public class PersonajeEXE {
                 '}';
     }
 
-    //metodos propios
+    //metodoz propios
     public void ponerNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -83,7 +86,7 @@ public class PersonajeEXE {
         return this.nivel;
     }
 
-    public int recibirDaño() {
+    public int recibirDano() {
         this.vida -= 15;
         if (this.vida <= 0) {
             this.vida = 0;
