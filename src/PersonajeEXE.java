@@ -50,7 +50,7 @@ public class PersonajeEXE {
         this.vida = vida;
     }
 
-    public boolean isVivo() {
+    public boolean getVivo() {
         return vivo;
     }
 
